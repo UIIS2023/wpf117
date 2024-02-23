@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFKnjižara.Forme.FrmIzdanje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlfc:\users\sarav\source\repos\wpfknjižara\forme\frmizdanje.xaml
+c:\users\sarav\source\repos\wpfknjižara\forme\frmizdanje.xaml.cs
+ormats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKnjižara.Forme"
+        
+        Title="Dodaj/Izmjeni izdanje" Height="180" Width="250"
+         BorderBrush="PapayaWhip"
+        BorderThickness="5">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\sarav\OneDrive\Radna površina\knjigeSlika.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Naziv izdanja:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="29,46,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtNazivIzdanja" HorizontalAlignment="Left" Margin="120,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="92"/>
+        <Button x:Name="txtbtnSacuvaj" Content="Sačuvaj" FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="62,92,0,0" VerticalAlignment="Top" Click="txtbtnSacuvaj_Click"/>
+        <Button x:Name="txtbtnOtkazi" Content="Otkaži"  FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="140,92,0,0" VerticalAlignment="Top" Click="txtbtnSacuvaj_Click"/>
+
+
+    </Grid>
+</Window>

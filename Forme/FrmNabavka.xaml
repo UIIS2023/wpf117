@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFKnjižara.Forme.FrmNabavka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKnjižara.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/Izmjeni nabavku" Height="300" Width="300"
+        BorderBrush="PapayaWhip"
+        BorderThickness="7">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\sarav\OneDrive\Radna površina\knjigeSlika.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="Korisnik:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="66,46,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbKorisnik" HorizontalAlignment="Left" Margin="136,46,0,0" VerticalAlignment="Top" Width="120" DisplayMemberPath="PrezimeKorisnika" SelectedValuePath="KorisnikID"/>
+        <Label Content="Datum nabavke:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="32,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.444,0.631"/>
+        <DatePicker Name="dpDatumNabavke" HorizontalAlignment="Left" Margin="136,92,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Cijena nabavke:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="23,0,0,0" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtCijenaNabavke" HorizontalAlignment="Left" Margin="136,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="txtbtnSacuvaj" Content="Sačuvaj" Width="70" Height="25" FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="59,204,0,0" VerticalAlignment="Top" Click="txtbtnSacuvaj_Click"/>
+        <Button x:Name="txtbtnOtkazi" Content="Otkaži" Width="70" Height="25" FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="162,204,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.055,0.583" Click="txtbtnOtkazi_Click"/>
+
+
+
+    </Grid>
+</Window>

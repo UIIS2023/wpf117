@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFKnjižara.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKnjižara"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Knjižara" Height="350" Width="630"
+        BorderBrush="PapayaWhip"
+        BorderThickness="10">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\sarav\OneDrive\Radna površina\knjizara1.jpg" Stretch="Fill"/>
+    </Window.Background>
+
+    <Grid>
+       
+        <StackPanel HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="auto" Cursor="Hand" Orientation="Horizontal" Grid.ColumnSpan="2" >
+            <Button x:Name="btnKnjiga" Content="Knjiga" FontFamily="Verdana"  Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnKnjiga_Click"/>
+            <Button x:Name="btnPisac" Content="Pisac" FontFamily="Verdana" Background="LightBlue"  Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnPisac_Click"/>
+            <Button x:Name="btnZanr" Content="Žanr" FontFamily="Verdana" Background="LightBlue"  Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnZanr_Click"/>
+            <Button x:Name="btnIzdanje" Content="Izdanje" FontFamily="Verdana" Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnIzdanje_Click"/>
+            <Button x:Name="btnNabavka" Content="Nabavka" FontFamily="Verdana" Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnNabavka_Click"/>
+            <Button x:Name="btnRacun" Content="Račun" FontFamily="Verdana" Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnRacun_Click"/>
+            <Button x:Name="btnKorisnik" Content="Korisnik" FontFamily="Verdana" Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnKorisnik_Click"/>
+            <Button x:Name="btnKupac" Content="Kupac" FontFamily="Verdana" Background="LightBlue" Width="75" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnKupac_Click" />
+
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="auto" Orientation="Horizontal" Grid.ColumnSpan="2" Margin="110,0,0,0">
+            <Button x:Name="btnDodaj" Content="Dodaj" FontFamily="Verdana" Background="LightBlue" Width="120" Height="30" Click="btnDodaj_Click"/>
+            <Button x:Name="btnIzbrisi" Content="Izbriši" FontFamily="Verdana" Background="LightBlue" Width="120" Height="30" Click="btnIzbrisi_Click"/>
+            <Button x:Name="btnIzmjeni" Content="Izmjeni" FontFamily="Verdana" Background="LightBlue"  Width="120" Height="30" Click="btnIzmjeni_Click"/>
+        </StackPanel>
+        <DataGrid x:Name="dataGridCentar" HorizontalAlignment="Center" Height="Auto" Width="Auto" VerticalAlignment="Center" 
+                    IsReadOnly="True" AlternatingRowBackground="Azure" CanUserAddRows="False" SelectionUnit="FullRow" SelectionMode="Single" />
+
+
+
+    </Grid>
+</Window>

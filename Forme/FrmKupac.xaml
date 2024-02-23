@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPFKnjižara.Forme.FrmKupac"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKnjižara.Forme"
+        mc:Ignorable="d"
+        Title="Dodaj/Izmjeni kupca" Height="350" Width="300"
+        BorderBrush="PapayaWhip"
+        BorderThickness="7">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\sarav\OneDrive\Radna površina\knjigeSlika.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="Ime:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="58,48,0,0" VerticalAlignment="Top" Height="29" Width="42" RenderTransformOrigin="0.61,0.636"/>
+        <TextBox Name="txtImeKupca" HorizontalAlignment="Left" Margin="113,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Prezime:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="46,78,0,0" VerticalAlignment="Top"  Height="23" Width="57" />
+        <TextBox Name="txtPrezimeKupca" HorizontalAlignment="Left" Margin="113,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Adresa:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="46,109,0,0" VerticalAlignment="Top" Height="23" Width="57" RenderTransformOrigin="0.67,1.028"/>
+        <TextBox x:Name="txtAdresaKupca" HorizontalAlignment="Left" Margin="113,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Grad:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="50,146,0,0" VerticalAlignment="Top" Height="23" Width="58"/>
+        <TextBox x:Name="txtGradKupca" HorizontalAlignment="Left" Margin="113,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Kontakt:" FontFamily="Verdana" HorizontalAlignment="Left" Margin="51,184,0,0" VerticalAlignment="Top" Height="23" Width="57"/>
+        <TextBox Name="txtKontaktKupca" HorizontalAlignment="Left" Margin="113,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Članska karta" FontFamily="Verdana" HorizontalAlignment="Left" Margin="46,212,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxClanskaKarta" Content="" HorizontalAlignment="Left" Margin="144,218,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.35,0.572"/>
+        <Button x:Name="txtbtnSacuvaj" Content="Sačuvaj" FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="79,255,0,0" VerticalAlignment="Top" Click="txtbtnSacuvaj_Click"/>
+        <Button x:Name="txtbtnOtkazi" Content="Otkaži" FontFamily="Verdana" Background="LightBlue" HorizontalAlignment="Left" Margin="154,255,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.338,0.683" Click="txtbtnOtkazi_Click"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

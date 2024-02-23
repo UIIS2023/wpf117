@@ -1,0 +1,37 @@
+C:\Users\sarav\source\repos\WPFKnjižara\bin\Debug\WPFKnjižara.exe.config
+C:\Users\sarav\source\repos\WPFKnjižara\bin\Debug\WPFKnjižara.exe
+C:\Users\sarav\source\repos\WPFKnjižara\bin\Debug\WPFKnjižara.pdb
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjizara.csproj.AssemblyReference.cache
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjizara.csproj.SuggestedBindingRedirects.cache
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmIzdanje.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKnjiga.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKorisnik.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKupac.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmLogIn.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmNabavka.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmPisac.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmRačun.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmŽanr.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\MainWindow.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Views Folder\LogininView.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\App.g.cs
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara_MarkupCompile.cache
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara_MarkupCompile.lref
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\App.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmIzdanje.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKnjiga.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKorisnik.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmKupac.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmLogIn.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmNabavka.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmPisac.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmRačun.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Forme\FrmŽanr.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\MainWindow.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\Views Folder\LogininView.baml
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara.g.resources
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara.Properties.Resources.resources
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjizara.csproj.GenerateResource.cache
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjizara.csproj.CoreCompileInputs.cache
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara.exe
+C:\Users\sarav\source\repos\WPFKnjižara\obj\Debug\WPFKnjižara.pdb
